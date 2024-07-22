@@ -1,11 +1,12 @@
 // src/components/Header.jsx
 import React from 'react'
+import { Heading } from '@chakra-ui/react'
 
 const Header = () => {
   return (
-    <header style={{ backgroundColor: '#282c34', padding: '1rem', color: 'white' }}>
-      <h1>My Simple Vite + React App</h1>
-    </header>
+    <Heading style={{ padding: '1rem', color: 'white' }}>
+      Valorant Game Tracker
+    </Heading>
   )
 }
 
