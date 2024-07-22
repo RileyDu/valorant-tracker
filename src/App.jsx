@@ -4,14 +4,15 @@ import Header from './components/Header'
 import MainPage from './components/MainPage'
 import { useState } from 'react'
 import PlayerStats from './components/PlayerStats'
-import { Box } from '@chakra-ui/react'
+import { Box, Text } from '@chakra-ui/react'
 
 function App() {
 
   return (
     <>
       <Header />
-      <Box>
+      <Box padding={'2em'}>
+        <Text fontWeight={'bolder'}>Search Match History by Riot ID</Text>
       <PlayerStats />
       </Box>
     </>
